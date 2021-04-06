@@ -1,0 +1,26 @@
+{
+  "name": "first-section-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "predeploy": "npm install",
+    "vdev": "nuxt",
+    "vbuild": "nuxt build",
+    "vstart": "nuxt start",
+    "deploy": "sectionctl deploy -a 2561 -i 8154"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "nuxt": "latest"
+  }
+}
